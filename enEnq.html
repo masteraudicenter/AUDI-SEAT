@@ -111,8 +111,8 @@
         </div>
         <script src="js/app.js"></script>
         <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbyI5r_QSpAs5pOs9kHnrrDLqRxNzb8gqO734zPrIWciyvhOxtYk/exec'  
-                  const form = document.forms['enq']  
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyZI8TzBI_AMGYLKGu_tZsxHfzPFKdlidV95DhMx0V7fW2C0naO/exec'
+            const form = document.forms['enq']  
                   form.addEventListener('submit', e => {  
                    e.preventDefault()  
                    fetch(scriptURL, { method: 'POST', body: new FormData(form)})  
